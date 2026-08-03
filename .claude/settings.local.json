@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Read(//Users/josenetto/Desktop/**)",
-      "Bash(npx create-next-app@latest homem-reparador --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack)"
+      "Bash(npx create-next-app@latest homem-reparador --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack)",
+      "Bash(npm install *)",
+      "Bash(npx shadcn@latest init -d -b neutral)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(mkdir -p .claude)",
+      "Bash(npx tsc *)",
+      "Bash(npx eslint *)",
+      "Bash(npm run *)"
     ]
   }
 }
