@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/josenetto/Desktop/**)",
+      "Bash(npx create-next-app@latest homem-reparador --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack)"
+    ]
+  }
+}
